@@ -11,20 +11,20 @@ class PsConfig {
   /// AppVersion
   /// For your app, you need to change according based on your app version
 
-  static const String app_version = '3.5';
+  static const String app_version = '1.0';
 
   ///
   /// API Key
   /// If you change here, you need to update in server.
   ///
-  static const String ps_api_key = 'teampsisthebest';
+  static const String ps_api_key = 'cipherdine';
 
   ///
   /// API URL
   /// Change your backend url
   ///
   static const String ps_core_url =
-      'https://www.products.panacea-soft.co/flutter-buysell-demo';
+      'https://admin.vendido.in';
 
   static const String ps_app_url = ps_core_url + '/index.php/';
 
@@ -48,7 +48,7 @@ class PsConfig {
   /// Chat Setting
   ///
   static const String iosGoogleAppId =
-      '0:000000000000:ios:0000000000000000000000';
+      '1:35679107561:android:66e25f15c3b2c3aa31b378';
   static const String iosGcmSenderId = '000000000000';
   static const String iosProjectId = 'flutter-buy-and-sell';
   static const String iosDatabaseUrl =
@@ -56,12 +56,12 @@ class PsConfig {
   static const String iosApiKey = 'AIz000000000000000000000000000000000000';
 
   static const String androidGoogleAppId =
-      '1:000000000000:android:0000000000000000000000';
-  static const String androidGcmSenderId = '000000000000';
-  static const String androidProjectId = 'flutter-buy-and-sell';
-  static const String androidApiKey = 'AIz0000000000000000000-0000000000000000';
+      '1:35679107561:android:66e25f15c3b2c3aa31b378';
+  static const String androidGcmSenderId = '35679107561';
+  static const String androidProjectId = 'vendido-5581f';
+  static const String androidApiKey = 'AIzaSyCRo9bl7m10FOBkxpITZMFgDAYtEwv1LbY';
   static const String androidDatabaseUrl =
-      'https://flutter-buy-and-sell.firebaseio.com';
+      'https://vendido-5581f-default-rtdb.firebaseio.com/';
 
   ///
   /// Facebook Key
@@ -73,13 +73,13 @@ class PsConfig {
   ///Admob Setting
   ///
   //static bool showAdMob = true;
-  static String androidAdMobAdsIdKey = 'ca-app-pub-0000000000000000~0000000000';
+  static String androidAdMobAdsIdKey = 'ca-app-pub-2740152056778429~2462531365';
   static String androidAdMobBannerAdUnitId =
-      'ca-app-pub-0000000000000000/0000000000';
+      'ca-app-pub-2740152056778429/6138052493';
   static String androidAdMobNativeAdUnitId =
-      'ca-app-pub-0000000000000000/0000000000';
+      'ca-app-pub-2740152056778429/1536957349';
   static String androidAdMobInterstitialAdUnitId =
-      'ca-app-pub-0000000000000000/0000000000';
+      'ca-app-pub-2740152056778429/2298045687';
   static String iosAdMobAdsIdKey = 'ca-app-pub-0000000000000000~0000000000';
   static String iosAdMobBannerAdUnitId =
       'ca-app-pub-0000000000000000/0000000000';
@@ -126,7 +126,7 @@ class PsConfig {
   ///
 
   static final Language defaultLanguage =
-      Language(languageCode: 'en', countryCode: 'US', name: 'English US');
+      Language(languageCode: 'en', countryCode: 'IN', name: 'English US');
 
   /// For default language change, please check
   /// LanguageFragment for language code and country code
